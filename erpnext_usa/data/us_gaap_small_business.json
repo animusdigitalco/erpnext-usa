@@ -1,0 +1,334 @@
+{
+	"country_code": "us",
+	"name": "United States - Small Business Chart of Accounts (Numbered)",
+	"tree": {
+		"Assets": {
+			"root_type": "Asset",
+			"account_number": "1000",
+			"Current Assets": {
+				"account_number": "1100",
+				"is_group": 1,
+				"Checking Account": {
+					"account_number": "1110",
+					"account_type": "Bank"
+				},
+				"Savings Account": {
+					"account_number": "1120",
+					"account_type": "Bank"
+				},
+				"Undeposited Funds": {
+					"account_number": "1130",
+					"account_type": "Bank"
+				},
+				"Petty Cash": {
+					"account_number": "1140",
+					"account_type": "Cash"
+				},
+				"Accounts Receivable": {
+					"account_number": "1200",
+					"account_type": "Receivable"
+				},
+				"Allowance for Doubtful Accounts": {
+					"account_number": "1250"
+				},
+				"Inventory": {
+					"account_number": "1300",
+					"account_type": "Stock"
+				},
+				"Prepaid Expenses": {
+					"account_number": "1400"
+				},
+				"Employee Advances": {
+					"account_number": "1450"
+				}
+			},
+			"Fixed Assets": {
+				"account_number": "1600",
+				"is_group": 1,
+				"Machinery and Equipment": {
+					"account_number": "1610",
+					"account_type": "Fixed Asset"
+				},
+				"Furniture and Fixtures": {
+					"account_number": "1620",
+					"account_type": "Fixed Asset"
+				},
+				"Vehicles": {
+					"account_number": "1630",
+					"account_type": "Fixed Asset"
+				},
+				"Leasehold Improvements": {
+					"account_number": "1640",
+					"account_type": "Fixed Asset"
+				},
+				"Buildings": {
+					"account_number": "1650",
+					"account_type": "Fixed Asset"
+				},
+				"Accumulated Depreciation": {
+					"account_number": "1690",
+					"account_type": "Accumulated Depreciation"
+				}
+			},
+			"Capital Work in Progress": {
+				"account_number": "1700",
+				"account_type": "Capital Work in Progress"
+			},
+			"Other Assets": {
+				"account_number": "1800",
+				"is_group": 1,
+				"Security Deposits": {
+					"account_number": "1810"
+				},
+				"Intangible Assets": {
+					"account_number": "1820"
+				}
+			},
+			"Temporary Accounts": {
+				"account_number": "1900",
+				"is_group": 1,
+				"Temporary Opening": {
+					"account_number": "1910",
+					"account_type": "Temporary"
+				}
+			}
+		},
+		"Liabilities": {
+			"root_type": "Liability",
+			"account_number": "2000",
+			"Current Liabilities": {
+				"account_number": "2100",
+				"is_group": 1,
+				"Accounts Payable": {
+					"account_number": "2110",
+					"account_type": "Payable"
+				},
+				"Credit Card": {
+					"account_number": "2120"
+				},
+				"Sales Tax Payable": {
+					"account_number": "2130",
+					"account_type": "Tax"
+				},
+				"Payroll Liabilities": {
+					"account_number": "2140",
+					"is_group": 1,
+					"Federal Income Tax Withheld": {
+						"account_number": "2141",
+						"account_type": "Tax"
+					},
+					"FICA Payable": {
+						"account_number": "2142",
+						"account_type": "Tax"
+					},
+					"State Income Tax Withheld": {
+						"account_number": "2143",
+						"account_type": "Tax"
+					},
+					"Other Payroll Liabilities": {
+						"account_number": "2149"
+					}
+				},
+				"Accrued Expenses": {
+					"account_number": "2150"
+				},
+				"Customer Deposits": {
+					"account_number": "2160"
+				},
+				"Stock Received But Not Billed": {
+					"account_number": "2170",
+					"account_type": "Stock Received But Not Billed"
+				},
+				"Current Portion of Long-Term Debt": {
+					"account_number": "2180"
+				}
+			},
+			"Long-Term Liabilities": {
+				"account_number": "2300",
+				"is_group": 1,
+				"Notes Payable": {
+					"account_number": "2310"
+				},
+				"Vehicle Loans": {
+					"account_number": "2320"
+				},
+				"Bank and SBA Loans": {
+					"account_number": "2330"
+				}
+			}
+		},
+		"Equity": {
+			"root_type": "Equity",
+			"account_number": "3000",
+			"Owner's Capital": {
+				"account_number": "3100",
+				"account_type": "Equity"
+			},
+			"Owner's Draws": {
+				"account_number": "3200",
+				"account_type": "Equity"
+			},
+			"Retained Earnings": {
+				"account_number": "3300",
+				"account_type": "Equity"
+			},
+			"Opening Balance Equity": {
+				"account_number": "3400",
+				"account_type": "Equity"
+			}
+		},
+		"Income": {
+			"root_type": "Income",
+			"account_number": "4000",
+			"Sales": {
+				"account_number": "4100",
+				"account_type": "Income Account"
+			},
+			"Service Revenue": {
+				"account_number": "4200",
+				"account_type": "Income Account"
+			},
+			"Shipping and Handling Income": {
+				"account_number": "4300",
+				"account_type": "Income Account"
+			},
+			"Sales Returns and Allowances": {
+				"account_number": "4400",
+				"account_type": "Income Account"
+			},
+			"Sales Discounts": {
+				"account_number": "4500",
+				"account_type": "Income Account"
+			},
+			"Other Income": {
+				"account_number": "4900",
+				"is_group": 1,
+				"Interest Income": {
+					"account_number": "4910"
+				},
+				"Gain on Sale of Assets": {
+					"account_number": "4920"
+				}
+			}
+		},
+		"Expenses": {
+			"root_type": "Expense",
+			"account_number": "5000",
+			"Cost of Goods Sold": {
+				"account_number": "5100",
+				"is_group": 1,
+				"Materials and Product Costs": {
+					"account_number": "5110",
+					"account_type": "Cost of Goods Sold"
+				},
+				"Freight In": {
+					"account_number": "5120",
+					"account_type": "Cost of Goods Sold"
+				},
+				"Subcontractor Costs": {
+					"account_number": "5130",
+					"account_type": "Cost of Goods Sold"
+				},
+				"Inventory Adjustments": {
+					"account_number": "5190",
+					"account_type": "Stock Adjustment"
+				},
+				"Expenses Included in Valuation": {
+					"account_number": "5195",
+					"account_type": "Expenses Included In Valuation"
+				}
+			},
+			"Operating Expenses": {
+				"account_number": "6000",
+				"is_group": 1,
+				"Advertising and Marketing": {
+					"account_number": "6010"
+				},
+				"Bank Fees and Service Charges": {
+					"account_number": "6020"
+				},
+				"Software and Subscriptions": {
+					"account_number": "6030"
+				},
+				"Insurance": {
+					"account_number": "6040"
+				},
+				"Legal and Professional Fees": {
+					"account_number": "6050"
+				},
+				"Meals (50% Deductible)": {
+					"account_number": "6060"
+				},
+				"Office Supplies": {
+					"account_number": "6070"
+				},
+				"Wages and Salaries": {
+					"account_number": "6080"
+				},
+				"Payroll Taxes": {
+					"account_number": "6081"
+				},
+				"Employee Benefits": {
+					"account_number": "6082"
+				},
+				"Contract Labor (1099)": {
+					"account_number": "6090"
+				},
+				"Rent": {
+					"account_number": "6100"
+				},
+				"Repairs and Maintenance": {
+					"account_number": "6110"
+				},
+				"Telephone and Internet": {
+					"account_number": "6120"
+				},
+				"Travel": {
+					"account_number": "6130"
+				},
+				"Utilities": {
+					"account_number": "6140"
+				},
+				"Vehicle Expenses": {
+					"account_number": "6150"
+				},
+				"Depreciation Expense": {
+					"account_number": "6160",
+					"account_type": "Depreciation"
+				},
+				"Postage and Shipping": {
+					"account_number": "6170"
+				},
+				"Licenses and Permits": {
+					"account_number": "6180"
+				},
+				"Training and Education": {
+					"account_number": "6190"
+				},
+				"Merchant Processing Fees": {
+					"account_number": "6200"
+				}
+			},
+			"Other Expenses": {
+				"account_number": "7000",
+				"is_group": 1,
+				"Interest Expense": {
+					"account_number": "7010"
+				},
+				"Penalties and Fines": {
+					"account_number": "7020"
+				},
+				"Exchange Gain or Loss": {
+					"account_number": "7030"
+				},
+				"Write Off": {
+					"account_number": "7040"
+				},
+				"Round Off": {
+					"account_number": "7900",
+					"account_type": "Round Off"
+				}
+			}
+		}
+	}
+}

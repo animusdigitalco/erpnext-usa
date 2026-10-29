@@ -1,0 +1,18 @@
+[project]
+name = "erpnext_usa"
+authors = [
+    { name = "Animus Digital", email = "jon@animusdigital.co" },
+]
+description = "US localization for ERPNext: US chart of accounts, American locale defaults, 1099/W-9 handling."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { file = "license.txt" }
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<17.0.0"
+erpnext = ">=15.0.0,<17.0.0"
